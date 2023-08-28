@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    color: #088178;
+    text-align: center;
+}
+
+nav { 
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: nowrap;
+}
+
+nav a {
+    font-size: x-large;
+    text-decoration: none;
+    color: #088178;
+    justify-content: space-around;
+    align-items: center;
+    padding-inline: 35px;
+}
+
+nav a:hover {
+    color: #ff8787;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    width: 40vw;
+}
+
+.logo img{
+    padding-left: 30px;
+}
+
+.navigation {
+    width: 60vw;
+}
+
+h1 {
+    padding: 2%;
+}
+
+p {
+    font-size: 120%;
+    font-family: 'Cinzel';
+    padding: 3px;
+} 
+
+a {
+    padding: 3px;
+}
+
+input {
+    height: 40px;
+    width: 10%; 
+    border: none;
+    padding: 0 3vh;
+    justify-content: center;
+    outline: 3px solid #088178;
+    font-size: x-large;
+    color: #ffff;
+}
+
+#login {
+    max-width: 70%;
+    min-width: 40%; 
+    border-bottom-left-radius: 5px; 
+    border-top-left-radius: 5px;
+}
+
+#submit {
+    background-color: #088178;
+    border-bottom-right-radius: 5px; 
+    border-top-right-radius: 5px;
+}
+
+#submit:hover {
+    cursor: pointer;
+    background-color: aliceblue;
+    color: #088178;
+}
